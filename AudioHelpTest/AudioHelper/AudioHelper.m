@@ -10,7 +10,6 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface AudioHelper()<AVAudioRecorderDelegate>
-@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
 @property (nonatomic, strong) AVAudioRecorder *audioRecorder;
 @property (nonatomic, strong) NSDictionary *recordSetting;
 @property (nonatomic, strong) NSTimer *recordTimer;

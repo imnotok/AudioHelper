@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  audio,record audiorecord
+  AVAudioRecorder, AudioRecorderaudio,AVAudioRecorder,AudioRecorderrecord audiorecord, aac, wav, record class
                    DESC
 
   s.homepage     = "https://github.com/imnotok/AudioHelper"
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/imnotok/AudioHelper.git", :tag => "#{s.version}" }
 
-  s.source_files  =  'AudioHelper/*.{h,m}'
+  s.source_files  =  'AudioHelpTest/AudioHelper/*.{h,m}'
   s.frameworks = 'Foundation', 'AVFoundation'
   s.requires_arc = true
 
